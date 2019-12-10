@@ -49,9 +49,9 @@
 
 /* Direct messages URLs */
 #define TWITTER_DIRECT_MESSAGES_URL "/direct_messages.json"
-#define TWITTER_DIRECT_MESSAGES_NEW_URL "/direct_messages/new.json"
-#define TWITTER_DIRECT_MESSAGES_SENT_URL "/direct_messages/sent.json"
-#define TWITTER_DIRECT_MESSAGES_DESTROY_URL "/direct_messages/destroy/"
+#define TWITTER_DIRECT_MESSAGES_NEW_URL "/direct_messages/events/new"
+#define TWITTER_DIRECT_MESSAGES_SENT_URL "/direct_messages/event/list"
+#define TWITTER_DIRECT_MESSAGES_DESTROY_URL "/direct_messages/events/destroy/"
 
 /* Friendships URLs */
 #define TWITTER_FRIENDSHIPS_CREATE_URL "/friendships/create.json"
